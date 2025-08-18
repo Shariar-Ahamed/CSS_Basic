@@ -1,0 +1,30 @@
+body{background-color: aqua;}
+
+table{
+  border: 1px solid black;
+  width: 400px;
+  border-collapse: separate;
+  border-spacing: 20px 50px;
+  empty-cells: hide;
+  table-layout: fixed;
+}
+
+th{
+  border: 1px solid black;
+  height: 70px;
+  text-align: center;
+}
+
+td{
+  border: 5px solid black;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle; /* vertical-align: middle; */
+  background-color: blueviolet;
+}
+
+caption{
+  caption-side: top;
+  border: 1px solid black;
+}
