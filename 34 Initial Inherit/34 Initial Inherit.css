@@ -1,0 +1,25 @@
+body{background-color: aqua;}
+
+
+#parent{
+  color: red;
+  border: 2px solid black;
+} /* Parent Color, inherit*/
+
+#Link-1{
+  color: black;
+}
+
+#Link-2{
+  color: inherit;   /* Parent Color,initial*/
+  border: inherit;
+}
+
+#Link-3{
+  color: blue;
+  border: inherit;
+}
+
+#Link-4{
+  color: inherit;
+}
