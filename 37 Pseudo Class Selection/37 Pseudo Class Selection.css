@@ -1,0 +1,44 @@
+body{background-color: aqua;}
+
+li:first-child{
+  color: red;
+  font-size: 25px;
+}
+
+li:last-child{
+  color:violet;
+  font-size: 25px;
+}
+
+li:nth-child(6){
+  color: green;
+  font-size: 25px;
+}
+
+/* even,odd */
+li:nth-child(odd){
+  color: orangered;
+  font-size: 30px;
+}
+
+li:nth-last-child(2){
+  color:blue;
+}
+
+/* li:nth-child(8n)*/
+li:nth-child(7n+1){
+  color: brown;
+  font-size: 25px;
+}
+
+
+.iText:focus{
+  border: 5px solid red;
+  background-color: blueviolet;
+  color: white;
+}
+
+
+input:checked{
+  box-shadow: 0 0 0 2px red;
+}
