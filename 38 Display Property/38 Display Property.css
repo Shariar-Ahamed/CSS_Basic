@@ -1,0 +1,30 @@
+body {
+  background-color: aqua;
+}
+
+.Fdiv {
+  border: 2px solid black;
+  height: 50px;
+  width: 40%;
+  display: inline-block;
+  /* display: none;  (kono ostittoi thakbe na)*/
+  /* visibility: hidden; (hidden hobe but jayga sarbe na)*/
+}
+
+.Sdiv {
+  border: 2px solid red;
+  height: 50px;
+  width: 40%;
+  display: inline-block;
+}
+
+.Fspan {
+  border: 1px solid black;
+  height: 50px; /*Not Working for inline tag*/
+  width: 40%; /*Not Working for inline tag*/
+}
+
+.Sspan {
+  border: 1px solid black;
+  display: block; /* Inline tag to Block Tag*/
+}
