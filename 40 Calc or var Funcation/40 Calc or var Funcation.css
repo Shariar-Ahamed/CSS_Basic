@@ -1,0 +1,22 @@
+body{background-color: aqua;}
+
+:root{
+  --initianColor: green;
+  --buttonColor: red;
+  --textColor: white;
+}
+
+.func{
+  background-color: var(--initianColor);
+  height: 250px;
+  width: calc(100% - 180px);
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: var(--buttonColor);
+  color: var(--textColor);
+  padding: 10px 20px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
