@@ -1,0 +1,40 @@
+body{background-color: aqua;}
+
+.img{
+  float: left;
+  margin-right: 20px;
+}
+
+
+img{
+  float: right;
+}
+
+.p{
+  border: 1px solid black;
+  overflow: auto;
+}
+
+
+.one{
+  width: 500px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+  float: left;                          /*float: left*/
+}
+
+.two{
+  width: 500px;
+  border: 3px solid black;
+  background-color: antiquewhite;
+  float: right;                          /*float: right;*/
+}
+
+.three{
+  width: 100%;
+  border: 3px solid green;
+  background-color: red;
+  padding: 30px 0;
+  clear: both ;                         /*clear: both, right, left*/
+ 
+}
