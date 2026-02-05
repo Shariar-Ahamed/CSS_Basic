@@ -1,0 +1,21 @@
+body{background-color:aqua}
+
+
+#box{
+  width: 200px;
+  height: 150px;
+  background-color: green;
+  transition-property: width, height, background-color; /*all*/
+  transition-duration: 1s;
+  /* transition-delay: 2s; */
+  /* transition-timing-function: ease;   initial,ease,ease-in,ease-out,step-end */
+  /* transition: 1s; */
+  /* transition: >>property, duration<<, transition-timing-function,delay ; */
+}
+
+
+#box:hover{
+  width: 350px;
+  height: 300px;
+  background-color: red;
+}
